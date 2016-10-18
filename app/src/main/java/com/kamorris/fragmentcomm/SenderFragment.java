@@ -21,6 +21,7 @@ public class SenderFragment extends Fragment {
 
     @Override
     public void onAttach(Activity c) {
+        super.onAttach(c);
         activty = (SenderInterface) c;
     }
 
